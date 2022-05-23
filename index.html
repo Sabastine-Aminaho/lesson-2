@@ -10,19 +10,20 @@
         *{
     margin: 5px;
 }
-article{
-    margin: 10px;
+.article {
+    margin: auto;
+    width: 100%;
 }
 
 .left{
-    width: 28%; 
+    width: 20%;
     float: left;
-    
+    padding-right: 10px;
 }
 .right{
-       display: inline-block;
-       width: 70%;
-    
+       /* display: inline-block; */
+       width: 75%;
+
 }
 .left, .right{
     display: inline-block;
@@ -31,66 +32,70 @@ article{
 aside{
     color: blue;
 }
+.topic{
+  background-color: black;
+}
+.topic h2 {
+  color: #fff;
+}
     </style>
 </head>
 <body>
-   <div class="left">
-<aside>
-    <h1 style="color: Black;">Technical Documentation</h1>
-    <p>INTRODUCTION</p>
-    <p>What You Should Already Known</p>
-    <p>About the Topic</p>
-    <p>Topic 1</p>
-    <p>Topic 2</p>
-</aside>
-   </div>
-  
-   <div class="right">
-    <table>
-<article>
-    <article style="background-color:black;
-    color:White">
-      <h2>INTRODUCTION</h2>
-    </article>
-     <p> This give the idea of Environmental and Sustainability Management</p>
-     
-     <article style="background-color:black;
-    color:White">
-      <h2>What You Should Know</h2>
-    </article>
-     <p> This give the idea of Environmental and Sustainability Management</p>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam 
-         laborum ipsum dolore, modi facilis excepturi consequuntur placeat similique? 
-         Repellat amet illum maiores quia obcaecati provident. Ducimus esse totam molestiae quasi!</p>
-     
-     
-     <article style="background-color:black;
-    color:White">
-      <h2>About Topic</h2>
-    </article>
-     <p> This give the idea of Environmental and Sustainability Management</p>
-     
-     
-     <article style="background-color:black;
-    color:White">
-      <h2>Topic 1</h2>
-    </article>
-     <p> This give the idea of Environmental and Sustainability Management</p>
-     
-     
-     <article style="background-color:black;
-    color:White">
-      <h2>Topic 2</h2>
-    </article>
-     <p> This give the idea of Environmental and Sustainability Management</p>
-     </table>
+  <div class="article">
+    <div class="left">
+ <aside>
+     <h1 style="color: Black;">Technical Documentation</h1>
+     <p>INTRODUCTION</p>
+     <p>What You Should Already Known</p>
+     <p>About the Topic</p>
+     <p>Topic 1</p>
+     <p>Topic 2</p>
+ </aside>
+    </div>
+
+    <div class="right">
+     <table>
+ <!-- <article> -->
+     <div  class="topic">
+       <h2>INTRODUCTION</h2>
+     </div>
+      <p> This give the idea of Environmental and Sustainability Management</p>
+
+      <div class="topic">
+       <h2>What You Should Know</h2>
+     </div>
+      <p> This give the idea of Environmental and Sustainability Management</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+          laborum ipsum dolore, modi facilis excepturi consequuntur placeat similique?
+          Repellat amet illum maiores quia obcaecati provident. Ducimus esse totam molestiae quasi!</p>
+
+
+      <div class="topic">
+       <h2>About Topic</h2>
+     </div>
+      <p> This give the idea of Environmental and Sustainability Management</p>
+
+
+      <div class="topic">
+       <h2>Topic 1</h2>
+     </div>
+      <p> This give the idea of Environmental and Sustainability Management</p>
+
+
+      <div class="topic">
+       <h2>Topic 2</h2>
+     </div>
+      <p> This give the idea of Environmental and Sustainability Management</p>
+      <!-- </table> -->
+  </div>
+
 </table>
 </div>
 
 
 
    
-    
+
 
 </body>
 </html>
